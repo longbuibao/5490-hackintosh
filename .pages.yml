@@ -33,6 +33,7 @@ content:
         options:
           multiple: true
           values: [Technology, Programming, AI, Web, Data, ML, Cybersecurity, Cloud, DevOps, Software]
+        list: true
       - name: images
         label: Images
         type: image
