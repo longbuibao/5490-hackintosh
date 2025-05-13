@@ -33,7 +33,9 @@ content:
         options:
           multiple: true
           values: [Technology, Programming, AI, Web, Data, ML, Cybersecurity, Cloud, DevOps, Software]
-        list: true
+        list:
+          min: 0
+          max: 100
       - name: images
         label: Images
         type: image
